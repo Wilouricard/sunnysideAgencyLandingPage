@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="bg-blue-400 flex justify-between px-4 py-3">
+    <nav className="bg-cyan-400 flex justify-between px-4 py-3">
       <button>
         <img src="\images\logo.svg" alt="" />
       </button>

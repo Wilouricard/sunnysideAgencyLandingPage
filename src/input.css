@@ -8,4 +8,15 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Fraunces', serif;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
