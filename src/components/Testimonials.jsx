@@ -4,7 +4,7 @@ import Client from "./Client";
 export default function Testimonials() {
   return (
     <div className="text-center">
-      <h1 className="uppercase tracking-[4px] py-20">Client Testimonials</h1>
+      <h1 className="uppercase tracking-[4px] py-20 text-Grayish-blue text-xl">Client Testimonials</h1>
       <Client 
         image="\images\image-emily.jpg"
         text=" We put our trust in Sunnyside and they delivered, making sure our needs

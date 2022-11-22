@@ -6,9 +6,9 @@ export default function Article(props) {
       <img src={props.image} alt="" />
       <div className="text-center py-16 flex flex-col gap-5 px-8">
           <h1 className="text-4xl">{props.title}</h1>
-          <p className="text-xl">{props.text}</p>
+          <p className="text-xl font-bold">{props.text}</p>
           <a href="#">
-            <h2 className="uppercase underline decoration-yellow-200 decoration-4 underline-offset-0">
+            <h2 className={`uppercase underline underline-offset-0 ${props.color} font-bold decoration-4 hover:opacity-90 active:decoration-8`}>
               Learn more
             </h2>
           </a>

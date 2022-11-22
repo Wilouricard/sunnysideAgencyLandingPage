@@ -2,21 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
 }
 
-p, a {
-    font-family: 'Barlow', sans-serif;
+h1,
+h2 {
+  color: hsl(212, 27%, 19%);
 }
 
-/* font-family: 'Barlow', sans-serif;
-font-family: 'Fraunces', serif; */
+p,
+a {
+  font-family: "Barlow", sans-serif;
+  color: hsl(213, 9%, 39%);
+}
+
+#fleche {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 30px 30px;
+  border-color: transparent transparent #ffffff transparent;
+}
 
 /* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
