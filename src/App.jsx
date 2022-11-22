@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Article from './components/Article'
 import Colored from './components/Colored'
+import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +26,13 @@ function App() {
         title={"Graphic design"}
         text={"Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention."}
       />
+      <Colored 
+        image="\images\mobile\image-photography.jpg"
+        title={"Photography"}
+        text={"Increase your credibility by getting the most stunning, high-quality photos that improve your business image."}
+      />
+      <Testimonials />
+      <Footer />
     </div>
   )
 }

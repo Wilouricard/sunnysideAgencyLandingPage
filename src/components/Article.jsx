@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Article(props) {
   return (
-    <div className="">
+    <div className="flex flex-col">
       <img src={props.image} alt="" />
       <div className="text-center py-16 flex flex-col gap-5 px-8">
           <h1 className="text-4xl">{props.title}</h1>
