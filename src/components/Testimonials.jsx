@@ -3,8 +3,9 @@ import Client from "./Client";
 
 export default function Testimonials() {
   return (
-    <div className="text-center">
-      <h1 className="uppercase tracking-[4px] py-20 text-Grayish-blue text-xl">Client Testimonials</h1>
+    <div className="text-center md:py-32">
+      <h1 className="uppercase tracking-[4px] py-20 text-Grayish-blue text-xl md:py-0">Client Testimonials</h1>
+      <div className="flex flex-col md:flex-row md:px-40 md:pt-20">  
       <Client 
         image="\images\image-emily.jpg"
         text=" We put our trust in Sunnyside and they delivered, making sure our needs
@@ -22,5 +23,6 @@ export default function Testimonials() {
         who="Jennie F."
         position="Business Owner" />
     </div>
+      </div>
   );
 }
