@@ -17,12 +17,14 @@ function App() {
         image="\images\mobile\image-transform.jpg"
         title={"Transform your brand"}
         text={'We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.'}
-        color={"decoration-Yellow"} />
+        color={"decoration-Yellow"} 
+        row={"-reverse"} />
       <Article 
         image="\images\mobile\image-stand-out.jpg"
         title={"Stand out to the right audience"}
         text={'Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places..'} 
-        color={"decoration-Soft-red"} />
+        color={"decoration-Soft-red"} 
+        row={""} />
       <Colored 
         image="\images\mobile\image-graphic-design.jpg"
         title={"Graphic design"}
